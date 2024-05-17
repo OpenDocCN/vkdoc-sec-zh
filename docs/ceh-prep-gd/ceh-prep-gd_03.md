@@ -34,7 +34,7 @@
 
 枚举被列为组成系统的第一步，是一个涉及到与目标建立活动连接的过程。枚举信息的类型可以分为四类:网络资源和共享、用户和组、审核设置和应用程序标题。
 
-要进行身份验证，操作系统需要一个用户帐户。Windows 还支持一种独特的用户类型，称为空用户(图 [3-1](#Fig1) )。空值没有用户名和密码，但可以用来访问网络上的某些信息。null 能够枚举帐户名和共享。
+要进行身份验证，操作系统需要一个用户帐户。Windows 还支持一种独特的用户类型，称为空用户(图 3-1 )。空值没有用户名和密码，但可以用来访问网络上的某些信息。null 能够枚举帐户名和共享。
 
 ![img/505537_1_En_3_Fig1_HTML.jpg](img/505537_1_En_3_Fig1_HTML.jpg)
 
@@ -100,7 +100,7 @@ Windows 操作系统内置了几个命令行工具。建议您查看一下可用
 
 ## 使用 Windows 命令行工具发现主机
 
-像 nmap、zenmap、tcpdump 和 Wireshark 这样的工具允许您枚举主机，但是也可以使用一些内置于 Windows 中的命令。表 [3-1](#Tab1) ，包括任务 2 中用于枚举 Windows 主机的命令列表。
+像 nmap、zenmap、tcpdump 和 Wireshark 这样的工具允许您枚举主机，但是也可以使用一些内置于 Windows 中的命令。表 3-1 ，包括任务 2 中用于枚举 Windows 主机的命令列表。
 
 表 3-1
 
@@ -123,7 +123,7 @@ Windows 操作系统内置了几个命令行工具。建议您查看一下可用
 
 ## 使用 Metasploit 发现主机
 
-Metasploit 中有大量的扫描器。使用搜索扫描仪命令列出它们。ARP 扫描可以针对一个网络，如图 [3-2](#Fig2) 所示。Netbios 扫描程序可以获取计算机名列表，如图 [3-3](#Fig3) 所示。
+Metasploit 中有大量的扫描器。使用搜索扫描仪命令列出它们。ARP 扫描可以针对一个网络，如图 3-2 所示。Netbios 扫描程序可以获取计算机名列表，如图 3-3 所示。
 
 ![img/505537_1_En_3_Fig3_HTML.jpg](img/505537_1_En_3_Fig3_HTML.jpg)
 
@@ -139,7 +139,7 @@ Arp 扫描
 
 ## 利用该隐
 
-Cain 是一个密码恢复工具( [`https://resources.infosecinstitute.com/topic/password-cracking-using-cain-abel/`](https://resources.infosecinstitute.com/topic/password-cracking-using-cain-abel/) )，用于各种类型的密码，如网络、计算机、无线等。您可以使用 MAC 地址扫描器扫描子网中的所有主机(图 [3-4](#Fig4) )。通过选择每一个并选择解析主机名，显示结果(图 [3-5](#Fig5) )。
+Cain 是一个密码恢复工具( [`https://resources.infosecinstitute.com/topic/password-cracking-using-cain-abel/`](https://resources.infosecinstitute.com/topic/password-cracking-using-cain-abel/) )，用于各种类型的密码，如网络、计算机、无线等。您可以使用 MAC 地址扫描器扫描子网中的所有主机(图 3-4 )。通过选择每一个并选择解析主机名，显示结果(图 3-5 )。
 
 ![img/505537_1_En_3_Fig5_HTML.jpg](img/505537_1_En_3_Fig5_HTML.jpg)
 

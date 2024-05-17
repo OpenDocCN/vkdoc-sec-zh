@@ -60,7 +60,7 @@ pen 测试是一种枚举设备，可能会导致系统意外崩溃、数据被�
 
 您可以使用 Metasploit 构建有效负载，当受害者运行它们时，它会连接到攻击者的机器。可以创建 Windows、Linux 和 Mac OS X 操作系统的有效负载。创建有效负载时，您可以定义攻击者的端口号、IP 地址或完全限定的域名(FQDN)和有效负载类型，如 meterpreter 或 Windows 命令外壳。
 
-如果 Windows 用户启动可执行文件，他们的机器将连接到 216.6.1.100 的端口 22(图 [16-1](#Fig1) )。为此，攻击者机器需要监听该端口。
+如果 Windows 用户启动可执行文件，他们的机器将连接到 216.6.1.100 的端口 22(图 16-1 )。为此，攻击者机器需要监听该端口。
 
 ![img/505537_1_En_16_Fig1_HTML.jpg](img/505537_1_En_16_Fig1_HTML.jpg)
 
@@ -70,7 +70,7 @@ pen 测试是一种枚举设备，可能会导致系统意外崩溃、数据被�
 
 ## 利用受害者机器
 
-创建 MSF 有效负载后，通过 FTP 传输`iexplore.exe`文件。攻击者可以使用 SQL 注入为 FTP 构建应答文件，从而允许他们通过存储过程 xp_cmd shell 上传文件。如果上传的文件是一个 meterpreter 负载，也可以通过 xp_cmd shell 操作它，在攻击者和受害者之间创建一个 meterpreter 会话。见图 [16-2](#Fig2) 和 [16-3](#Fig3) 。
+创建 MSF 有效负载后，通过 FTP 传输`iexplore.exe`文件。攻击者可以使用 SQL 注入为 FTP 构建应答文件，从而允许他们通过存储过程 xp_cmd shell 上传文件。如果上传的文件是一个 meterpreter 负载，也可以通过 xp_cmd shell 操作它，在攻击者和受害者之间创建一个 meterpreter 会话。见图 16-2 和 16-3 。
 
 ![img/505537_1_En_16_Fig3_HTML.jpg](img/505537_1_En_16_Fig3_HTML.jpg)
 
